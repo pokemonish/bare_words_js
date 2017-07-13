@@ -11,3 +11,8 @@ try {
 } catch(e) {
     console.error('Your browser doesn\'t support bare words.')
 }
+
+with(bareWords) {
+    alert(Banana + Hell)
+    console.log(We, can, use, bare, words)
+}
